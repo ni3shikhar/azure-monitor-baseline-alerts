@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "nms"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "nms-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "nms-identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "nms-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "nms-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "nms-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -75,7 +75,7 @@
       "value": ""
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "rg-nms-monitoring-001"
     },
     "ALZMonitorResourceGroupLocation": {
       "value": "eastus"
@@ -97,19 +97,19 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": ["Nitin.Shikhare@crowe.com"]
     },
     "ALZLogicappResourceId": {
-      "value": ""
+      "value": "/subscriptions/221cea6b-e93b-417e-9061-c8ffb5c2f865/resourcegroups/rg-amba-monitoring-001/providers/Microsoft.Logic/workflows/lga-nms-amba-001"
     },
     "ALZLogicappCallbackUrl": {
-      "value": ""
+      "value": "https://prod-88.eastus.logic.azure.com:443/workflows/8632dd88cd70495c86005c74bace2b80/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=pJpjYpOZ_XsM3C3V5IsRD9armLjVY0kgXwvsnMMmKvs"
     },
     "ALZArmRoleId": {
       "value": []
     },
     "ALZEventHubResourceId": {
-      "value": []
+      "value": ["/subscriptions/221cea6b-e93b-417e-9061-c8ffb5c2f865/resourceGroups/rg-amba-monitoring-001/providers/Microsoft.EventHub/namespaces/evh-amba-monitoring"]
     },
     "ALZWebhookServiceUri": {
       "value": []
@@ -133,7 +133,7 @@
       ]
     },
     "BYOActionGroup": {
-      "value": []
+      "value": ["/subscriptions/f10c88e8-da02-434f-852e-5d24d0cea01e/resourceGroups/rg-amba-monitoring-001/providers/microsoft.insights/actiongroups/Custom Action Group 001"]
     },
     "BYOAlertProcessingRule": {
       "value": ""
