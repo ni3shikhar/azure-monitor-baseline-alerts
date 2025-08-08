@@ -1,6 +1,6 @@
 variables:
-  location: "northeurope"
-  ManagementGroupPrefix: "contoso"
+  location: "eastus"
+  ManagementGroupPrefix: "nms"
   serviceConnectionName: "AMBA-Service-Connection"
 
 pool:
